@@ -10,6 +10,11 @@ body{
     background-image: radial-gradient(#021027, #000000);
 }
 
+h2 {
+    font-size: 2rem;
+    padding: 1.25rem 0;
+}
+
 /* Navigation */
 
 nav {
@@ -80,8 +85,6 @@ li img{
 }
 
 .container h2{
-    font-size: 2rem;
-    padding: 1.25rem 0;
     font-weight: lighter;
     margin-bottom: 4rem;
 }
@@ -109,4 +112,24 @@ li img{
 
 .button-primary:hover{
     background-size: 100% 100%;
+}
+
+/* Expirience */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-top: 0.5rem solid #0e5bd7;
+}
+
+.nav-container {
+    display: flex;
+    margin-top: 4rem;
 }
